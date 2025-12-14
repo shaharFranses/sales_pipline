@@ -1,0 +1,8 @@
+sale_id,transaction_date,product_category,amount,region
+1001,2025-01-01 10:00:00,Electronics,499.99,North
+1002,2025-01-01 11:30:00,Books,19.50,South
+1003,2025-01-02 09:00:00,Clothing,55.00,North
+1004,2025-01-02 14:15:00,Electronics,1200.00,East
+1005,2025-01-03 16:45:00,Books,8.99,South
+1006,2025-01-03 18:20:00,Clothing,150.99,North
+1007,2025-01-12 15:32:00,Books,-45,north
