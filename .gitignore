@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+
+# Airflow
+airflow.db
+*.pid
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Pytest cache
+.pytest_cache/
+
+# Byte-compiled / optimized
+*.so
+
+# Ignore environment files
+.venv/
+
+# Ignore large files folder (uncomment if you don't want to add data/ to the repo)
+# data/
