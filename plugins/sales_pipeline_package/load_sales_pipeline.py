@@ -69,7 +69,6 @@ def run_sales_elt():
             
     
     DLQ_rows=sales_df[bad_rows_mask]
-    print(f"DEBUG: Found {len(DLQ_rows)} bad rows.")
     sales_df=sales_df[~bad_rows_mask]
 
     #second step L- load , take dataframe and load it into database ( 1000 rows per insert, raw daily sales will act as a staging table)
